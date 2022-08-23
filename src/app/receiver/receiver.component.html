@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <title>Receiver</title>
+  </head>
+  <body>
+    <div [hidden]="pay" style="width: 400px;">
+    <form (ngSubmit)="onPay()">
+  <!-- BIC -->
+   <div class="form-group">
+    <label for="bic">BIC</label>
+    <input type="text" class="form-control" id="bic" required [(ngModel)]="customer.bic" name="bic">
+  </div>
+
+
+  <!-- Institution Name -->
+  <div class="form-group">
+    <label for="iname">Institution Name</label>
+    <input type="text" class="form-control" id="iname" required [(ngModel)]="customer.institutionName" name="iname">
+    
+  </div>
+   <!-- Receiver name -->
+   <div class="form-group">
+    <label for="rname">Receiver Name</label>
+    <input type="text" class="form-control" id="rname" required [(ngModel)]="customer.receiverName" name="rname">
+    
+  </div>
+  <!-- Receiver account number -->
+  <div class="form-group">
+    <label for="rnumber">Receiver Account Number</label>
+    <input type="text" class="form-control" id="rnumber" required [(ngModel)]="customer.receiverAccountNumber" name="rnumber">
+    
+  </div>
+  <!-- Submit button -->
+  <button type="submit" class="btn btn-success" (click)="onPay()">Pay</button>
+  
+</form>
+</div>
+</body>
+</html>
+ 
+
+
+
+<https://teams.microsoft.com/l/message/19:aqaKzf_yoDykO8fGn6QukSE3osV6zVzTSFu2TlpDuCk1@thread.tacv2/1661235967552?tenantId=278ad577-c008-4fc4-ad48-4467be94beb5&amp;groupId=908b5806-5b14-48e0-94a9-aa2066203bb0&amp;parentMessageId=1661235967552&amp;teamName=Training Project Team&amp;channelName=General&amp;createdTime=1661235967552&amp;allowXTenantAccess=false>

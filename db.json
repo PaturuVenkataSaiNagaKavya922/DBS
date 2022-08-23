@@ -1,0 +1,78 @@
+{
+  "Users":
+  [
+        {
+      "custid":8302817828620,
+      "Accnt HolderName":"A KRISHNA MOHAN",
+      "Clear balance":56000,
+      "TransferType":"Customer Transfer",
+      "OverDraft":"yes"
+
+    },
+     {
+        "custid":69652133523248,
+        "Accnt HolderName":"HDFC BANK (CHENNAI)",
+        "Clear balance":223997,
+        "TransferType":"Bank Transfer TO OWN Account",
+        "OverDraft":"yes"
+      },
+      {
+        "custid":71319440983198,
+        "Accnt HolderName":"AM MAYANA",
+        "Clear balance":224000,
+        "TransferType":"Bank Transfer",
+        "OverDraft":"no"
+      },
+
+      {
+        "custid":45002608912874,
+        "Accnt HolderName":"HDFC BANK(MUMBAI)",
+        "Clear balance":56001,
+        "TransferType":" ",
+        "OverDraft":"no"
+      },
+      
+      {
+        "custid":42895235807723,
+        "Accnt HolderName":"HDFC BANK(DELHI)",
+        "Clear balance":1120005,
+        "TransferType":" ",
+        "OverDraft":"no"
+      },
+
+      {
+        "custid": 78195245302715,
+        "Accnt HolderName":"A RAJESH KUMAR",
+        "Clear balance":35000,
+        "TransferType":" ",
+        "OverDraft":"yes"
+      },
+      {
+        "custid": 47468155457802,
+        "Accnt HolderName":"A S VIJAY KUMAR",
+        "Clear balance":56000,
+        "TransferType":" ",
+        "OverDraft":"no"
+      },
+
+      {
+        "custid": 45766734966995,
+        "Accnt HolderName":"Abhishek biyani",
+        "Clear balance":224000,
+        "TransferType":" ",
+        "OverDraft":"no"
+      },
+
+      {
+        "custid": 87139550565094,
+        "Accnt HolderName":"ABHITHA",
+        "Clear balance":223997,
+        "TransferType":" ",
+        "OverDraft":"no"
+      }
+
+    
+]
+
+    
+}
